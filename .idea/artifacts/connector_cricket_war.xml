@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="connector.cricket:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>connector.cricket</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="connector.cricket.war">
+      <element id="artifact" artifact-name="connector.cricket:war exploded" />
+    </root>
+  </artifact>
+</component>
